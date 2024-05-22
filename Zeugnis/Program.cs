@@ -4,6 +4,9 @@ using System.Text.RegularExpressions;
 
 Console.WriteLine("Hello, World!");
 
+var nameRegex = new Regex("[A-Za-zß-]");
+var fachRegex = new Regex("[A-Za-zß-]");
+
 string Name;
 string Datum;
 int Fehltage;
@@ -12,8 +15,16 @@ int Unterkurse = 0;
 string[,] Fächer = new string[8,2];
 Console.WriteLine(Fächer);
 
-Console.WriteLine("Name: ");
-Name = Console.ReadLine();
+while (true){
+    Console.WriteLine("Name: ");
+    Name = Console.ReadLine();
+    if (nameRegex.IsMatch(Name))
+    {
+        break;
+    }
+    Console.WriteLine("Im Namen sind nur Buchstaben, Leerzeichen und Bindestriche erlaubt");
+}
+
 
 Console.WriteLine("Datum: ");
 Datum = Console.ReadLine();
@@ -81,7 +92,7 @@ if (UnFehltage > 29)
     Versetzung = false;
 }
 
-if  (Versetzung = true)
+if  (Versetzung == true)
 {
     Console.WriteLine("Versetzt");
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paul Schule\\source\\repos\\Zeugnis\\Zeugnis\\Zeugnis.csproj",
+      "projectUniqueName": "C:\\Users\\Paul Schule\\source\\repos\\Zeugnis\\2024-gruppe-tano\\Zeugnis\\Zeugnis.csproj",
       "projectName": "Zeugnis",
-      "projectPath": "C:\\Users\\Paul Schule\\source\\repos\\Zeugnis\\Zeugnis\\Zeugnis.csproj",
+      "projectPath": "C:\\Users\\Paul Schule\\source\\repos\\Zeugnis\\2024-gruppe-tano\\Zeugnis\\Zeugnis.csproj",
       "packagesPath": "C:\\Users\\Paul Schule\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paul Schule\\source\\repos\\Zeugnis\\Zeugnis\\obj\\",
+      "outputPath": "C:\\Users\\Paul Schule\\source\\repos\\Zeugnis\\2024-gruppe-tano\\Zeugnis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Paul Schule\\AppData\\Roaming\\NuGet\\NuGet.Config",
